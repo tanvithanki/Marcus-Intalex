@@ -20,15 +20,30 @@
 		<a href="contact.html">Contact</a>
 		<a href="http://soulr.com/">SoulR</a>
 
-		<input type="text" name="username" placeholder="firstname" required>
-		<input type="text" name="username" placeholder="lastname" required>
-		<input type="text" name="username" placeholder="email" required>
-
 		<!-- Map -->
 
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69084.59521667959!2d-73.95405360295811!3d40.71315057015117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25be31b803791%3A0x58717c3c741b218e!2s20+Scholes+St%2C+Brooklyn%2C+NY+11206%2C+USA!5e0!3m2!1sen!2suk!4v1525430508224" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 		<!-- Contact form -->
+
+		<form action="#" method="">
+			<label for="firstname">First Name</label>
+			<input type="text" id="firstname" name="firstname" placeholder="firstname" required>
+
+			<label for="lastname">Last Name</label>
+			<input type="text" id="lastname" name="lastname" placeholder="lastname" required>
+
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="email" required>
+
+			<label for="phone">Phone</label>
+			<input type="telephone" id="phone" name="telephone" placeholder="telephone(optional)">
+
+			<label for="message">Message</label>
+			<textarea id="message" id="message" name="message" placeholder="hit me up"></textarea>
+			<input type="submit" value="send">
+
+		</form>
 
 
 	</body>
